@@ -1,0 +1,15 @@
+{
+  "name": "echos-vrat",
+  "version": "1.0.0",
+  "description": "Echos Vrat",
+  "main": "main.js",
+  "scripts": { "start": "electron .", "build": "electron-builder --win portable" },
+  "build": {
+    "appId": "com.echosvrat.game",
+    "productName": "Echos Vrat",
+    "files": ["main.js", "icon.ico", "game/**/*"],
+    "win": { "target": "portable", "icon": "icon.ico" },
+    "portable": { "artifactName": "EchosVrat.exe" }
+  },
+  "devDependencies": { "electron": "^33.0.0", "electron-builder": "^25.0.0" }
+}

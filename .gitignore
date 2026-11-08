@@ -1,0 +1,12 @@
+# hasil build
+*.apk
+*.zip
+dist/
+node_modules/
+windows/game/
+apkbuild/
+exebuild/
+
+# kunci tanda tangan APK: JANGAN PERNAH di-upload
+*.jks
+*.keystore
